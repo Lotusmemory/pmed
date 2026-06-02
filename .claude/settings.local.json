@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(npm uninstall *)",
+      "Bash(pip install *)",
+      "Bash(python -c \"import main; print\\('Backend OK'\\)\")",
+      "Bash(uvicorn main:app --host 0.0.0.0 --port 8000)",
+      "Bash(curl -s http://localhost:8000/api/statistics)",
+      "Bash(python -m uvicorn main:app --host 127.0.0.1 --port 8000)",
+      "Bash(curl -s http://127.0.0.1:8000/api/statistics)",
+      "Bash(curl -s -X POST http://127.0.0.1:8000/api/search -H \"Content-Type: application/json\" -d '{\"query\":\"CRISPR\",\"max_results\":5}')",
+      "Bash(python -m json.tool)",
+      "Bash(python -m uvicorn main:app --reload --port 8000)",
+      "Bash(python -m uvicorn main:app --reload --port 8001)",
+      "Bash(git remote *)",
+      "Bash(git reset *)",
+      "Bash(git rm *)",
+      "Bash(git add *)"
+    ]
+  }
+}
